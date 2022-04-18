@@ -3,10 +3,10 @@ import './Card.css'
 function Card(props) {
   return (
     <div className="card">
-      <div className="avatar"></div>
+      <img className="avatar" src={props.avatar} alt="avatar" />
       <div className="info">
-        <div className="name">name</div>
-        <div className="number">number</div>
+        <div className="name">{props.name}</div>
+        <div className="number">{props.number}</div>
       </div>
     </div>
   )

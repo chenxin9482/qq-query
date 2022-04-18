@@ -27,7 +27,7 @@ input {
 }
 
 .container {
-  width: 700px;
+  width: 200px;
   height: 300px;
   overflow-x: hidden;
   overflow-y: auto;
@@ -35,4 +35,8 @@ input {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+}
+
+.error {
+  width: 100%;
 }
